@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("http://lamcdn.net/www.the-village.ru/gui/proximanova-regular-f980b7697eafe17c5dca217b5d833b15ac2ee9e4205c92b8e347d387e3a7d87f.eot");
+  src: url("http://lamcdn.net/www.the-village.ru/gui/proximanova-regular-f980b7697eafe17c5dca217b5d833b15ac2ee9e4205c92b8e347d387e3a7d87f.eot?#iefix") format("embedded-opentype"), url("http://lamcdn.net/www.the-village.ru/gui/proximanova-regular-57c4c5b68af590684bca82bc44caef8fb95937e039139b11491460dbcbbef2bc.woff") format("woff"), url("http://lamcdn.net/www.the-village.ru/gui/proximanova-regular-1198ea009cf1767213f1f4b59a2583d1ef453a92126881994a2074cfea4213f0.ttf") format("truetype"), url("http://lamcdn.net/www.the-village.ru/gui/proximanova-regular-9e9c81cb435deb81e0f3c0205b8efbf5dceb378209c39d3fe4b34eabc32f7a0a.svg#proxima_novaregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("http://lamcdn.net/www.the-village.ru/gui/proximanova-bold-89d01bc73c845a9e877e876d19ce93067b70a87fefd0fe9b8eb22b98db5b8fa7.eot");
+  src: url("http://lamcdn.net/www.the-village.ru/gui/proximanova-bold-89d01bc73c845a9e877e876d19ce93067b70a87fefd0fe9b8eb22b98db5b8fa7.eot?#iefix") format("embedded-opentype"), url("http://lamcdn.net/www.the-village.ru/gui/proximanova-bold-e81f55eaa6b8586827651c5d05c051cec9cd39efa10375589682e56676840d53.woff") format("woff"), url("http://lamcdn.net/www.the-village.ru/gui/proximanova-bold-656e503158b9a44521438d820c902d1bb98f01cca52310a302e2c6a090e779be.ttf") format("truetype"), url("http://lamcdn.net/www.the-village.ru/gui/proximanova-bold-6b78706fdbcc9d08a6fde1f2e61074b3acd17aabdc18f435fbfa61e6323c78bd.svg#proxima_novabold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+.news {
+  width: 300px;
+  font-family: "Proxima Nova", sans-serif;
+  position: relative;
+  margin: auto;
+  padding-top: 10px; }
+  .news-day-header {
+    border-bottom: 1px solid #eee; }
+    .news-day-header-title {
+      font-size: 20px;
+      margin: 19px 0 8px;
+      padding: 0;
+      font-weight: normal; }
+  .news-day-items {
+    position: relative; }
+    .news-day-items-line {
+      position: absolute;
+      width: 1px;
+      height: 100%;
+      left: 20px;
+      background: #eee;
+      z-index: 1; }
+  .news-item {
+    margin: 20px 0 24px; }
+    .news-item:hover .news-time-value {
+      color: #0aaf86; }
+    .news-item:hover .news-title {
+      color: #0aaf86; }
+  .news-time {
+    display: inline-block;
+    width: 44px;
+    margin-top: -4px;
+    padding: 4px 0;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: top;
+    z-index: 2;
+    position: absolute; }
+    .news-time-value {
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 14px; }
+    .news-time-ampm {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 12px;
+      color: lightgray; }
+  .news-img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background: red;
+    margin: 0 10px 0 50px;
+    vertical-align: top;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center; }
+    .news-img img {
+      display: block;
+      width: 100%; }
+  .news-title {
+    display: inline-block;
+    width: 185px;
+    vertical-align: top;
+    font-size: 15px;
+    line-height: 17px; }
+
+/*# sourceMappingURL=style.css.map */

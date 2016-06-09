@@ -37,6 +37,9 @@ $hover: #0aaf86;
         margin: 19px 0 8px;
         padding: 0;
         font-weight: normal;
+        display: inline-block;
+        width: 200px;
+        // background: pink;
       }
     }
     &-items {
@@ -52,15 +55,26 @@ $hover: #0aaf86;
       }
     }
   }
+  &-action {
+    color: lightgray;
+    font-weight: bold;
+    font-size: 12px;
+    float: right;
+    // margin-top: 26px;
+  }
   &-item {
     // background: rgba(14,14,14,.03);
+    display: block;
     margin: 20px 0 24px;
+    color: #000;
+    text-decoration: none;
     &:hover {
       .news-time-value {
         color: $hover;
       }
       .news-title {
         color: $hover;
+        text-decoration: underline;
       }
     }
   }

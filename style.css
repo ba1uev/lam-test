@@ -21,7 +21,6 @@
     .news-day-header-title {
       font-size: 20px;
       margin: 19px 0 8px;
-      padding: 0;
       font-weight: normal;
       display: inline-block;
       width: 200px; }
@@ -38,12 +37,21 @@
     color: lightgray;
     font-weight: bold;
     font-size: 12px;
-    float: right; }
+    text-decoration: none;
+    display: block; }
+    .news-action:hover {
+      color: #000; }
+    .news-action_header {
+      margin-top: 26px;
+      float: right; }
   .news-item {
     display: block;
     margin: 20px 0 24px;
     color: #000;
     text-decoration: none; }
+    .news-item:last-child {
+      padding-bottom: 20px;
+      margin-bottom: 0; }
     .news-item:hover .news-time-value {
       color: #0aaf86; }
     .news-item:hover .news-title {
@@ -73,7 +81,6 @@
     width: 50px;
     height: 50px;
     border-radius: 4px;
-    background: red;
     margin: 0 10px 0 50px;
     vertical-align: top;
     overflow: hidden;
@@ -88,5 +95,34 @@
     vertical-align: top;
     font-size: 15px;
     line-height: 17px; }
+  .news-footer {
+    display: inline-block;
+    margin-top: -4px;
+    padding: 4px 0;
+    text-align: center;
+    vertical-align: top;
+    z-index: 2;
+    position: absolute;
+    text-decoration: none;
+    color: lightgray;
+    font-weight: bold;
+    font-size: 13px; }
+    .news-footer svg {
+      fill: lightgray; }
+    .news-footer-icon {
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      margin: 0 12px 0 10px;
+      background: #fff;
+      padding-top: 6px; }
+    .news-footer-title {
+      vertical-align: top;
+      position: relative;
+      top: 9px; }
+    .news-footer:hover {
+      color: #000; }
+      .news-footer:hover svg {
+        fill: #000; }
 
 /*# sourceMappingURL=style.css.map */
